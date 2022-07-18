@@ -12,9 +12,9 @@ function renderProductos(){
     
     for (let producto of productos){
         let columna = document.createElement("div");
-        columna.className ="col-md-4 p-5";
+        columna.className ="col-md-4 p-5 ";
         let card = document.createElement("div");
-        card.className = "card border-0 ";
+        card.className = "card border-0 shadow-lg ";
         let imagen =document.createElement("img");
         imagen.src = `images/${producto.imagen}`;
         imagen.className = "card-img-top";

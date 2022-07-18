@@ -13,7 +13,7 @@ function renderProductosCarrito(){
     
     for (let producto of productos) {
         let precio = producto.precio * producto.cantidad;
-        contenido += ` <tr>
+        contenido += ` <tr >
         <td><img src="images/${producto.imagen}" alt="${producto.nombre}" width="100"></td>
         <td class="pt-5">${producto.nombre}</td>
         <td class="pt-5">$${precio}</td>
