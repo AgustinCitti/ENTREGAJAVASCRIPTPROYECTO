@@ -1,0 +1,19 @@
+
+
+
+/*footer*/
+footer {
+    background-color: #0D0D0D;
+    text-align: center;
+    width: 100%;
+    color: white;
+  }
+  .titulofooter {
+    color: white;
+    font-size: 25px;
+    font-family: 'Pangolin', cursive;
+  }
+  .enlace {
+    color: #8C2336;
+    text-decoration: none;
+  }
