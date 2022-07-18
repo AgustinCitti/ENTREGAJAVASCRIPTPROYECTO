@@ -17,3 +17,24 @@ footer {
     color: #8C2336;
     text-decoration: none;
   }
+
+
+/*nav*/
+  nav{
+    background-color:#0D0D0D ;
+    
+}
+.navtext{
+  color:rgb(255, 196, 1);
+  font-size: 20px;
+  padding-top: 20px;
+}
+.navtext:hover{
+  color:rgb(87, 77, 45);
+  font-size: 20px;
+}
+
+
+body{
+  background-color: #D9D9D9;
+}

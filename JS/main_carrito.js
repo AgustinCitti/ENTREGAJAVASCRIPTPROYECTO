@@ -3,7 +3,7 @@ function renderProductosCarrito(){
     let contenido=`<p class="alert alert-warning text-center" role="alert">No hay productos seleccionados</p>`;
     if (productos.length > 0){
          contenido=`<p class="text-center"><a href="#" class="btn btn-danger" onclick="vaciarCarrito()">Borrar Pedido</a></p>
-    <table class="table text-center"`;
+    <table class="table text-center bg-white"`;
     let total =0;
 
     
