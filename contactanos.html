@@ -41,12 +41,22 @@
 
 
     <main>
-        <div class="container">
-            <h1 class="text-center p-5">NUESTROS PRODUCTOS:</h1>
-            <div id="productos" class="row">
-
-            </div>
-
+        <div class="container ">
+          <form class="mb-5 col-sm-8 col-md-5  " action="#">
+            <div class="form-group p-5 mb-5">
+               <input class="form-control mt-1" id="formNombre" type="name" name="Nombre"  placeholder="Ingresar nombre">
+               <input class="form-control mt-1" id="formApellido" type="name" name="apellido"  placeholder="Ingresar apellido">
+     
+              <input class="form-control mt-3" id="formMail" type="email" name="Mail"  placeholder="Ingresar @mail"> 
+            
+            
+              <input class="inputs-cont mt-3" id="formOpinion" type="text" name="opinion" placeholder="Escriba su opinión..." >
+             <div class="m-3">
+                <input class="btn  btn-danger btn-block " type="reset" value="Borrar">
+                <input class="btn  btn-danger btn-block " id="btnEnviar" type="submit" name="enviar" placeholder="Enviar">
+           </div>
+           </div>
+            </form>
         </div>
 
     </main>
@@ -68,8 +78,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="JS/productos.js"></script>
     <script src="JS/funciones.js"></script>
-    <script src="JS/main.js"></script>
+    
     <script src="JS/sweetalert.js"></script>
+    
 
 </body>
 </html>

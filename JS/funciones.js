@@ -29,16 +29,16 @@ function actualizarBotonCarrito(){
    }
    function vaciarCarrito(){
     localStorage.removeItem("carrito");
-    
     renderProductosCarrito();
    }
 
 
    function agregarCarrito(id){
+    
     let producto = buscarProducto(id);
     let productos_carrito = obtenerProductosCarrito();
     let pos = productos_carrito.findIndex(x => x.id == id);
-
+    
     if (pos > -1){
         productos_carrito[pos].cantidad += 1;
     } else{
